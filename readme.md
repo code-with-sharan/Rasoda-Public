@@ -39,6 +39,7 @@ Rasoda is a modern web application that leverages AI to generate personalized re
 
 ### Frontend
 FRONTEND/
+```
 ├── src/
 │ ├── components/
 │ │ ├── Authentication/
@@ -49,14 +50,17 @@ FRONTEND/
 │ ├── assets/
 │ ├── App.jsx
 │ └── main.jsx
+```
 
 ### Backend
+```
 BACKEND/
 ├── Controllers/
 ├── Routes/
 ├── middleware/
 ├── config/
 └── server.js
+```
 
 ## Getting Started
 
@@ -64,29 +68,35 @@ BACKEND/
   - git clone <repository-url>
 
 2. Install dependencies for both frontend and backend
+    ```
     Frontend
-        cd frontend
+        cd FRONTEND
         npm install
     Backend
-        cd backend
+        cd BACKEND
         npm install
-
+    ```
 3. Set up environment variables
-    Backend .env
+    ```
+    Backend .env:
         MONGO_URL=
         JWT_SECRET=
         ADMIN_EMAIL=
         ADMIN_APP_PASSWORD=
         OPENAI_API_KEY=
         FrontEndURL=
-    Frontend
+    ```
+
+    Frontend:
         Change the BackendUrl in FRONTEND/src/components/Context/Context.jsx
-    
+    ```
 4. Run the development servers
+    ```
     Frontend
         npm run dev
     Backend
         npm run server
+    ```
 
 ## API Endpoints
 
