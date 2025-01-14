@@ -1,0 +1,89 @@
+.priv-container {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 1.5rem 3rem 1.5rem;
+  font-family: "Inter", sans-serif;
+
+}
+
+.priv-inner-container {
+  max-width: 50rem;
+}
+
+.privacy-policy-div {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.25rem;
+}
+
+.privacy-policy-heading {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.privacy-policy-para {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  color: #374151;
+}
+
+.data-collection h2,
+.data-usage h2,
+.data-sharing h2,
+.data-security h2,
+.your-rights h2,
+.changes-tp-policy h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.data-collection p,
+.data-usage p,
+.data-sharing p,
+.data-security p,
+.your-rights p,
+.changes-tp-policy p {
+  line-height: 1.7rem;
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+.data-collection ul,
+.data-usage ul,
+.data-sharing ul,
+.your-rights ul {
+  list-style-type: disc;
+  padding-inline-start: 1.625em;
+  color: #374151;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.data-collection li,
+.data-usage li,
+.data-sharing li,
+.your-rights li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.7rem;
+}
+
+.your-rights b,
+.changes-tp-policy b {
+  color: black;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .priv-container {
+    padding: 5.5rem 0.5rem 1.5rem 0.5rem;
+  }
+
+  .priv-inner-container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,66 @@
+.recipesContainer {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.output-modal-header {
+  padding: 0.7rem;
+  padding-right: 1rem;
+}
+
+.output-modal-body {
+  padding: 1.1rem;
+}
+
+.Rec-title {
+  font-family: "Inter", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: black;
+}
+
+.Rec-desc {
+  font-weight: 400;
+  padding-bottom: 1.3rem;
+  line-height: 1.55;
+}
+
+.ingredients-heading {
+  font-size: 1.285rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: black;
+}
+
+.Ingredients_box {
+  background-color: rgb(241, 245, 249);
+  padding: 0.5rem;
+  margin-bottom: 0.7rem;
+  border-radius: 5px;
+  margin-top: 0.3rem;
+  line-height: 1.65;
+  color: black;
+}
+
+.Ingredients_box ul {
+  list-style-type: disc;
+  padding-inline-start: 1.15em;
+}
+
+.rec-steps {
+  padding-left: 1rem;
+  color: black;
+  font-size: 1.05rem;
+}
+
+.list {
+  padding-inline-start: 0.6em;
+  list-style: decimal;
+}
+
+.list li {
+  line-height: 1.55;
+}

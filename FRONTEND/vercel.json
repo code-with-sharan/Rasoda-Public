@@ -1,0 +1,36 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/(.*)",
+        "destination": "https://rasoda-ai-recipie-generator.onrender.com/api/$1"
+      },
+      {
+        "source": "/termsOfService",
+        "destination": "/termsOfService.html"
+      },
+      {
+        "source": "/privacyPolicy",
+        "destination": "/privacyPolicy.html"
+      },
+      {
+        "source": "/keto",
+        "destination": "/keto.html"
+      },
+      {
+        "source": "/glutenFree",
+        "destination": "/glutenFree.html"
+      },
+      {
+        "source": "/vegan",
+        "destination": "/vegan.html"
+      },
+      {
+        "source": "/vegetarian",
+        "destination": "/vegetarian.html"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
+      }
+    ]
+  }

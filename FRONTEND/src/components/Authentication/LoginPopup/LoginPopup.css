@@ -1,0 +1,102 @@
+.login-popup-container {
+  place-self: center;
+  color: #808080;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.563rem;
+  padding: 0.625rem 0.938rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  animation: fadeIn 0.6s;
+}
+
+.login-popup-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.login-popup-title img {
+  width: 16px;
+  cursor: pointer;
+}
+
+.login-popup-title h2 {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-popup-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.login-popup-inputs input {
+  outline: none;
+  border: 1px solid #c9c9c9;
+  padding: 0.625rem;
+  border-radius: 4px;
+}
+
+.login-popup-container button {
+  border: none;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  color: white;
+  background-color: black;
+  font-size: 0.938rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.login-popup-condition {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.login-popup-condition label {
+  margin-bottom: 0;
+}
+
+.create_new_acc {
+  margin-bottom: 0;
+}
+
+.create_new_acc span {
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.forgot_pass{
+  max-width: fit-content;
+}
+
+.forgot_pass {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.forgot_pass:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.login-popup-footer-items{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (max-width: 420px) {
+  .login-popup-condition input {
+    margin-top: 5px;
+  }
+}

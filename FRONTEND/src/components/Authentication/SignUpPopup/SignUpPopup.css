@@ -1,0 +1,49 @@
+.signup-popup-container {
+  place-self: center;
+  color: #808080;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 0.625rem 0.938rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.signup-popup-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.signup-popup-inputs input {
+  outline: none;
+  border: 1px solid #c9c9c9;
+  padding: 0.625rem;
+  border-radius: 4px;
+}
+
+.signup-popup-container button {
+  border: none;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  color: white;
+  background-color: black;
+  font-size: 0.938rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-popup-condition {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+  margin-top: -0.938rem;
+}
+
+.move_to_login span {
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}

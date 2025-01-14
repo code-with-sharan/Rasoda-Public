@@ -1,0 +1,93 @@
+.term-container {
+  display: flex;
+  justify-content: center;
+  padding: 6rem 1.5rem 3rem 1.5rem;
+  font-family: "Inter", sans-serif;
+}
+
+.term-inner-container {
+  max-width: 50rem;
+}
+
+.terms-of-service-div {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.25rem;
+}
+
+.terms-of-service-div h1 {
+  color: black;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.terms-of-service-div p {
+  color: #374151;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.introduction h2,
+.user-accounts h2,
+.itellectual-prop h2,
+.user-conduct h2,
+.privacy-data-collection h2,
+.disclaimer h2,
+.termination-susp h2,
+.gov-law h2,
+.modifications-to-terms h2,
+.contact-us h2 {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.introduction p,
+.user-accounts p,
+.itellectual-prop p,
+.user-conduct p,
+.privacy-data-collection p,
+.disclaimer p,
+.termination-susp p,
+.gov-law p,
+.modifications-to-terms p,
+.contact-us p {
+  line-height: 1.7rem;
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+.itellectual-prop ul,
+.user-conduct ul {
+  list-style-type: disc;
+  padding-inline-start: 1.625em;
+  color: #374151;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.itellectual-prop li,
+.user-conduct li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.7rem;
+}
+
+.contact-us b {
+  color: black;
+  text-decoration: underline;
+}
+
+.introduction a,
+.privacy-data-collection a {
+  color: black;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .term-container {
+    padding: 5.5rem 1.5rem 1.5rem 1.5rem;
+  }
+}

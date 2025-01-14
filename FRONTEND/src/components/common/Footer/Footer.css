@@ -1,0 +1,47 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1rem;
+}
+
+.copyRight{
+    color: #7d8795;
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+}
+
+.Privacy_TOS{
+    display: flex;
+    gap: 1rem;
+}
+
+.Privacy_TOS p{
+    text-decoration: none;
+    color: #7d8795;
+    cursor: pointer;
+}
+
+.Privacy_TOS_p:hover{
+    color: black;
+}
+
+@media (max-width:420px){
+    .Privacy_TOS p{
+        max-width: 4rem;
+    }
+
+    .content{
+        padding: 1rem 0.75rem;
+        line-height: 1.05;
+    }
+
+    .copyRight{
+        display: inline;
+    }
+
+    .All-rights-reserved{
+        display: inline-block;
+    }
+}
